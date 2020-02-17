@@ -7,17 +7,8 @@ body {
 	max-width: 50vw;
 	color: black;
 }
-div.ui.card {
-	width: 100%;
-}
 .App {
 	text-align: center;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-	.App-logo {
-		animation: App-logo-spin infinite 20s linear;
-	}
 }
 
 .App-header {
@@ -43,4 +34,8 @@ div.ui.card {
 	to {
 		transform: rotate(360deg);
 	}
+}
+
+.cards {
+	padding: 2vh;
 }
